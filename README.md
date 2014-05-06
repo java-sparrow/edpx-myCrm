@@ -1,7 +1,7 @@
-edpx-seed
-=========
+edpx-crm
+========
 
-edp user command seed
+edp user command crm
 
 `cli`目录是对外提供的命令，无关紧要的文件建议不要放到这里。
 

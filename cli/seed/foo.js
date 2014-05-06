@@ -8,11 +8,11 @@
  
  
 /**
- * foo.js ~ 2014/04/01 11:10:53
- * @author leeight(liyubei@baidu.com)
+ * foo.js ~ 2014-05-06 23:11:50
+ * @author xlst(x_l_st@126.com)
  * @version $Revision$ 
  * @description 
- * edp seed foo command
+ * edp crm foo command
  **/
 exports.cli = {
     description: '这个是必须的，用来简单的描述命令所做的事情',
@@ -21,25 +21,4 @@ exports.cli = {
         console.log( 'Arguments = ' + JSON.stringify( args ) );
         console.log( 'Options = ' + JSON.stringify( opts ) );
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* vim: set ts=4 sw=4 sts=4 tw=100: */
+};

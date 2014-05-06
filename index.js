@@ -8,31 +8,9 @@
  
  
 /**
- * index.js ~ 2014/04/01 11:14:24
- * @author leeight(liyubei@baidu.com)
+ * index.js ~ 2014-05-06 23:06:05
+ * @author xlst(x_l_st@126.com)
  * @version $Revision$ 
  * @description 
  * empty file
  **/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* vim: set ts=4 sw=4 sts=4 tw=100: */

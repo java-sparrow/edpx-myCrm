@@ -1,22 +1,22 @@
 {
-  "name": "edpx-seed",
+  "name": "edpx-crm",
   "version": "0.0.1",
-  "description": "edp user command seed",
+  "description": "edp user command crm",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ecomfe/edpx-seed.git"
+    "url": "git://github.com/java-sparrow/edpx-myCrm.git"
   },
   "keywords": [
     "edp"
   ],
-  "author": "leeight@gmail.com",
+  "author": "x_l_st@126.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ecomfe/edpx-seed/issues"
+    "url": "https://github.com/java-sparrow/edpx-myCrm/issues"
   },
-  "homepage": "https://github.com/ecomfe/edpx-seed"
+  "homepage": "https://github.com/java-sparrow/edpx-myCrm"
 }

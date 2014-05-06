@@ -8,36 +8,15 @@
  
  
 /**
- * seed.js ~ 2014/04/01 11:12:59
- * @author leeight(liyubei@baidu.com)
+ * crm.js ~ 2014-05-06 23:11:05
+ * @author xlst(x_l_st@126.com)
  * @version $Revision$ 
  * @description 
- * edp seed
+ * edp crm
  **/
 exports.cli = {
-    description: 'edp seed command description',
+    description: 'edp crm command description',
     main: function( args, opts ) {
-        console.log( 'See edp seed --help' );
+        console.log( 'See edp crm --help' );
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* vim: set ts=4 sw=4 sts=4 tw=100: */
+};
