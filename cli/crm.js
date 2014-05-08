@@ -76,25 +76,37 @@ exports.createJSDocConfFile = function (projectInfo) {
 
 /**
  * 命令行配置项
+ *
+ * @inner
+ * @type {Object}
  */
-exports.cli = {
-    /**
-     * 命令描述信息
-     * 
-     * @type {string}
-     */
-    description: 'CRM项目管理',
-    /**
-     * 模块命令行运行入口
-     */
-    main: function( args, opts ) {
-        var path = require('path');
-        var info = require('../lib/util').readJson(path.resolve(__dirname, '../package.json'));
-        
-        console.log('Hello RigelFE');
-        console.log('------');
-        console.log(info.name);
-        console.log('Version: ' + info.version);
-        console.log(info.description);
-    }
+var cli = {};
+
+/**
+ * 命令描述信息
+ *
+ * @type {string}
+ */
+cli.description = 'CRM项目管理';
+
+/**
+ * 模块命令行运行入口
+ *
+ */
+cli.main = function (args, opts) {
+    var path = require('path');
+    var info = require('../lib/util').readJson(path.resolve(__dirname, '../package.json'));
+    
+    console.log('Hello RigelFE');
+    console.log('------');
+    console.log(info.name);
+    console.log('Version: ' + info.version);
+    console.log(info.description);
 };
+
+/**
+ * 命令行配置项
+ *
+ * @type {Object}
+ */
+exports.cli = cli;
