@@ -39,6 +39,14 @@ edpx-crm移植笔记
 
 
 
+
+复制`test`目录
+----------------
+* `extend`方法仅是浅扩展？
+* 测试用例需要的 `test4readJson`、`test4writeJson`、`tmp.js`文件 不存在
+* 测试`rmdir`方法的测试用例需要`tmpDir`和`tmpSeDir`目录 及 `tmpFile.txt`文件
+
+
 - - - - - - - - - -
 
 疑问
