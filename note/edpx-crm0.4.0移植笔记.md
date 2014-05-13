@@ -33,6 +33,12 @@ edpx-crm移植笔记
 * *lib/dep.js* 文件的`exports.add`方法，使用了`require('edp-package/lib/util/extract')`，而如果在本地没有找到 *edp-package/lib* 文件夹的话，需要重新到 [edp-package的github仓库](https://github.com/ecomfe/edp-package/releases) 下载`0.4.4`版（版本号根据 *package.json* 文件中的依赖描述），并且在模块目录里执行`npm link .`命令，以保证安装所需依赖
 
 
+移植 *cli/add.js* 文件
+---------------------
+使用`--type`指定创建类型时，可以创建没有后缀名的文件（这个是允许的）？
+
+
+
 - - - - - - - - - -
 
 疑问
