@@ -36,12 +36,12 @@
   
   "readmeFilename": "README.md",
   "dependencies": {
-    "edp-config": "~0.4.2",
-    "edp-build": "~0.5.2",
-    "edp-package": "~0.4.4",
-    "edp-project": "~0.4.12",
-    "edp-webserver": "~0.4.0",
-    "edp-codegen": "~0.4.2",
+    "edp-config": "~1.0.2",
+    "edp-build": "~1.0.7",
+    "edp-package": "~0.4.17",
+    "edp-project": "~0.5.3",
+    "edp-webserver": "~1.0.10",
+    "edp-codegen": "~0.4.8",
     "mkdirp": "~0.3.5",
     "velocityjs": "~0.3.13",
     "uglify-js": "~2.3.6",

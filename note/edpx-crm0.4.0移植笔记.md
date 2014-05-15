@@ -39,6 +39,40 @@ edpx-crm移植笔记
 
 
 
+升级依赖版本（package.json）
+------------------------------
+在 `edpx-crm/node_modules/edp-package/lib/util/extract.js` 文件中发现问题。  
+执行`edp crm init`命令后，`node`会报下面的错：
+```
+D:\xlst\github\myCRM\edpx-crm\node_modules\edp-package\lib\util\extract.js:80
+    var admZip = new AdmZip();
+                 ^
+TypeError: object is not a function
+```
+
+文件第78行原为:
+```
+var AdmZip = require( 'adm-zip' )( zipFile );
+var admZip = new AdmZip();
+```
+应该改为：
+```
+var AdmZip = require( 'adm-zip' );
+var admZip = new AdmZip(zipFile);
+```
+
+
+
+
+
+lib/mock
+---------
+第`357`行的`remoteInfo.host = target.port;`可能存在问题。
+
+
+
+
+
 
 复制`test`目录
 ----------------
